@@ -1,2 +1,2 @@
-# student-gallery-app
-a small app showing student 
+# kepler_image-gallery
+Integrify group project (JavaScript Assignment)
