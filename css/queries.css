@@ -1,0 +1,36 @@
+/* Small Phones: from 0 to 480 px such as Iphone 5*/
+@media only screen and (max-width: 480px) {  
+    html{
+        padding: 1px;
+        font-size: 80%;
+    }
+    
+    body {
+      padding: 5px;
+      
+    }
+    h1{
+        font-size: 250%;
+    }
+    .wrapper {
+        margin-top: 35px;
+        padding: 10px;
+    }
+    .maincontainer {
+        
+        width: 70vw;
+        height: 60vh;
+        
+    }
+    .fas{
+        font-size: 40px;
+           
+    }
+    .change-student__buttons{
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+     
+   }
