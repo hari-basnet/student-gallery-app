@@ -11,16 +11,20 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-html,
+html{
+  padding: 0;
+}
+
 body{
     font-family:'Titillium Web', sans-serif;
     text-align: center;
-    padding: 20px 0 0 0;
+    padding: 5px;
     background-color: #FEB500;
+    height: 100vh;
 }
 
 h1 {
-    font-size: 450%;
+    font-size: 350%;
     font-weight: 700;
     color:#FFFF;
     margin-bottom: 15px;
@@ -34,11 +38,14 @@ h3 {
 }
 
 .wrapper {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
-    padding: 10px;
-    /* height: 700px; */
+    padding: 5px;
+    height: 100vh;
     max-width: 1100px;
+    min-width: 400px;
     background: linear-gradient(to bottom , #3535352a, #FEB5002a);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
     /* background:#353535; */
@@ -92,11 +99,15 @@ img{
 
 /*CARD MAGIC*/
 
-  
+  .cards{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .maincontainer {
     position: relative;
-    width: 20vw;
-    height: 60vh;
+    width: 274px;
+    height: 400px;
     perspective: 150rem;
     -moz-perspective: 150rem;
   }

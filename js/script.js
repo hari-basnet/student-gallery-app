@@ -50,12 +50,12 @@ document.querySelector('.button-left').addEventListener('click', function (e) {
 
 card.addEventListener('click', function(){
     if(clickState===0){
-        card.style.transform= 'rotateY(-180deg)'
-        card.style.transition= 'all 1.5s'
+        card.style.transform= 'rotateY(-180deg)';
+        card.style.transition= 'all 1.5s';
         clickState=1
     } else {
-        card.style.transform= 'rotateY(0)'
-        card.style.transition= 'all 1.5s'
+        card.style.transform= 'rotateY(0)';
+        card.style.transition= 'all 1.5s';
         clickState=0
     }
  })
