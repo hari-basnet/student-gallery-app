@@ -1,25 +1,30 @@
 /* Small Phones: from 0 to 480 px such as Iphone 5*/
 @media only screen and (max-width: 480px) {  
     html{
-        padding: 1px;
+        padding: 0;
         font-size: 80%;
     }
     
     body {
-      padding: 5px;
+      padding: 0;
+      overflow: hidden;
       
     }
     h1{
         font-size: 250%;
     }
     .wrapper {
+        height: 100vh;
         margin-top: 35px;
-        padding: 10px;
+        padding: 0;
+        margin-right: 0;
+        background: linear-gradient(to bottom, #FEB500, #FEB500);
+        box-shadow: none;
     }
     .maincontainer {
         
         width: 70vw;
-        height: 60vh;
+        height: 65vh;
         
     }
     .fas{
