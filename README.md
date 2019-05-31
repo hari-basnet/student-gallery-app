@@ -2,7 +2,7 @@
 
 This project was done in group of two. This is a gallery app built with vanilla javascript. This project helped to learn about DOM and action listeners.
 
-#Demo
+# Demo
 [gh-pages](https://hari-basnet.github.io/student-gallery-app/)
 
 # Author
