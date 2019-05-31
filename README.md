@@ -7,9 +7,9 @@ This project was done in group of three.
 
 # Author
 
-Hari Basnet
-Koray Dundar
-Alba Vrapi
+* Hari Basnet
+* Koray Dundar
+* Alba Vrapi
 
 # License
 
